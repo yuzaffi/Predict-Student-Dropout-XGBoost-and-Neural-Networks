@@ -38,6 +38,33 @@ Data preprocessing included:
 
 ---
 
+## Recommendations
+
+- **Stage 1 – Early Intervention:** Use NN1 predictions to flag potential at-risk students based on demographic and course information. Focus on broad preventative measures such as orientation support, engagement campaigns, and monitoring attendance trends.  
+
+- **Stage 2 – Mid-Course Intervention:** Combine NN2 and XGB2 outputs to balance recall and precision. Target students showing early signs of disengagement or attendance issues with personalised outreach, mentoring, and academic support.  
+
+- **Stage 3 – Late-Stage Intervention:** Prioritise XGB3 predictions for high-confidence identification of students at immediate risk. Implement intensive retention efforts, such as one-on-one tutoring, academic counselling, and tailored support plans.  
+
+- **Feature-Based Strategies:**  
+  - Track attendance and absence patterns closely to identify early risk indicators.  
+  - Monitor academic performance metrics (Assessed, Passed, Failed Modules) to inform targeted interventions.  
+  - Use insights from demographic and institutional features to tailor support programmes to different student groups.  
+
+- **Operational Actions:**  
+  - Allocate resources dynamically based on predicted risk stage.  
+  - Develop automated dashboards to monitor dropout risk in real time.  
+  - Regularly retrain models with new student data to maintain predictive accuracy.  
+  - Coordinate cross-departmental intervention strategies involving faculty, tutors, and student support services.  
+
+- **Policy Recommendations:**  
+  - Establish early-warning protocols for students flagged at each stage.  
+  - Invest in engagement initiatives during the first weeks of the course to reduce early-stage dropout risk.  
+  - Implement targeted support for students struggling academically in late-stage courses.  
+  - Review and refine institutional and course-level policies that influence student retention.
+ 
+---
+
 ## Model Summary
 
 ### Stage 1 – Early Risk
