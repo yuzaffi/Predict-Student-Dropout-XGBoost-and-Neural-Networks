@@ -1,1 +1,1 @@
-# predict-student-dropout-XGBoost-and-Neural-Networks
+# Predict-Student-Dropout-XGBoost-and-Neural-Networks
