@@ -1,4 +1,4 @@
-# 🎓 Predict_Student_Dropout_XGBoost_and_Neural_Networks
+# 🎓 Predict Student Dropout XGBoost and_Neural Networks
 
 ---
 
