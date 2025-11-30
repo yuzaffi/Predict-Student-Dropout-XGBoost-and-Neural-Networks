@@ -115,7 +115,7 @@ Data preprocessing included:
 
 ---
 
-## 💡 Recommendations
+## 📌 Recommendations
 
 - **Stage 1 – Early Intervention:** Use NN1 predictions to flag potential at-risk students based on demographic and course information. Implement broad preventative measures such as orientation support, engagement campaigns, and attendance monitoring.  
 
