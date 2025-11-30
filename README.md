@@ -47,12 +47,16 @@ Data preprocessing included:
 **Neural Network (NN1)**  
 - F1 improved from 0.567 → 0.636  
 - Recall: 0.498 → 0.691 ✅  
-- Precision: 0.658 → 0.590  
+- Precision: 0.658 → 0.590
+
+<img width="420" height="250" alt="image" src="https://github.com/user-attachments/assets/b804be7f-0729-4a70-a308-349536169bdb" />
 
 **XGBoost (XGB1)**  
 - Initial F1 = 0; Optimised F1 = 0.610  
 - Recall: 0.549, Precision: 0.687  
 - Feature importance dominated by nationality and centre-related features  
+
+<img width="452" height="139" alt="image" src="https://github.com/user-attachments/assets/37614ff4-e432-4b57-a2af-5b2076ad630c" />
 
 **Insight:** Early intervention prioritises recall; NN1 better flags at-risk students, XGB1 reduces false positives.
 
@@ -65,10 +69,14 @@ Data preprocessing included:
 - Recall: 0.500 → 0.670 ✅  
 - Precision: 0.746 → 0.657  
 
+<img width="452" height="269" alt="image" src="https://github.com/user-attachments/assets/b8d418c0-99dc-45e4-a464-4c72a9e24165" />
+
 **XGBoost (XGB2)**  
 - F1: 0 → 0.665  
 - Recall: 0.598, Precision: 0.749  
 - Institutional and course features gain predictive weight  
+
+<img width="452" height="111" alt="image" src="https://github.com/user-attachments/assets/0ab30d71-a9ad-499f-9478-8c0e345bdcba" />
 
 **Insight:** Mid-course prediction balances recall and precision; NN2 detects slightly more potential dropouts, XGB2 is more precise, reducing unnecessary interventions.
 
@@ -81,10 +89,14 @@ Data preprocessing included:
 - Recall: 0.742 → 0.809 ✅  
 - Precision: 0.838 → 0.931  
 
+<img width="415" height="247" alt="image" src="https://github.com/user-attachments/assets/aad65e87-2ae2-4730-9af5-3addf1ee70f5" />
+
 **XGBoost (XGB3)**  
 - F1: 0 → 0.921 🌟  
 - Recall: 0.909, Precision: 0.934  
 - Academic performance features dominate feature importance  
+
+<img width="452" height="111" alt="image" src="https://github.com/user-attachments/assets/4993b166-7584-4215-887c-3d773b316291" />
 
 **Insight:** Late-stage prediction requires high precision and recall. XGB3 offers the most reliable predictions for targeted retention efforts.
 
@@ -100,15 +112,6 @@ Data preprocessing included:
 - **Stage 1:** Prioritise NN for recall  
 - **Stage 2:** Trade-off between NN recall and XGB precision  
 - **Stage 3:** XGB dominates for high-confidence retention targeting  
-
----
-
-## Key Takeaways
-
-- Optimisation consistently improved F1 scores, balancing recall and precision per stage ⚡  
-- Absence and academic performance features provide strong predictive signals  
-- Neural Networks and XGBoost each have advantages depending on stage and intervention goals  
-- Feature evolution reflects real-world information availability and guides stage-specific strategies  
 
 ---
 
@@ -136,3 +139,12 @@ Data preprocessing included:
   - Invest in engagement initiatives during the first weeks of courses to reduce early-stage dropout risk  
   - Implement targeted support for students struggling academically in late-stage courses  
   - Review and refine institutional and course-level policies that influence student retention  
+
+---
+
+## Key Takeaways
+
+- Optimisation consistently improved F1 scores, balancing recall and precision per stage ⚡  
+- Absence and academic performance features provide strong predictive signals  
+- Neural Networks and XGBoost each have advantages depending on stage and intervention goals  
+- Feature evolution reflects real-world information availability and guides stage-specific strategies  
